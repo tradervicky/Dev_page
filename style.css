@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    background-image: url('image/topbg.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100% 100%;
+}
+.toptext{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding-top: 50px;
+    
+}
+.toptext span{
+    font-size: 65px;
+    
+
+}
+.toptext h2{
+    font-size: 50px;
+}
+.toptext h1{
+    font-size: 65px;
+    text-transform: uppercase;
+}
+.black{
+    min-height: 150px;
+    background-color: black;
+    color: white;
+}
+.black p{
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding: 60px;
+}
+.black span{
+    font-size: 96px;
+}
+.skill{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1{
+    background-color: rgba(138, 240, 209, 0.555);
+}
+.card2{
+    background-color: rgb(243, 189, 189);
+}
+.card3{
+    background-color: rgb(248, 195, 133);
+}
+.card1, .card2, .card3{
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    max-width: 320px;
+    max-height: 480px;
+    transition-duration: .3s;
+}
+.card1:hover,.card2:hover,.card3:hover{
+    transform: scale(1.04);
+    transition: ease-in-out;
+}
+.card_content{
+    margin: 10px;
+    text-align: center;
+}
+.card_content h3,p{
+    padding: 10px;
+}
+.abt{
+    margin-top: 50px;
+    display: flex;
+}
+.contact_container{
+    background-color: rgba(161, 64, 199, 0.281);
+    min-height: 200px;
+    width: 50%;
+}
+.about_container{
+    background-color: rgb(206, 163, 123);
+    min-height: 200px;
+    width: 50%;
+}
+.contact, .about{
+    padding: 50px;
+    text-align: center;
+}
+.ftr{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+}
+.ftr footer{
+    padding: 35px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
